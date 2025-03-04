@@ -1,5 +1,8 @@
 # JioPay Support Chatbot
 
+```bash
+docker pull codewithdark/jiopay
+```
 A Retrieval-Augmented Generation (RAG) chatbot that provides automated customer support for JioPay using publicly available information.
 
 ## Features
