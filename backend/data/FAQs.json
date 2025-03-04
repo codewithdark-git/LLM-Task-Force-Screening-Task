@@ -1,0 +1,205 @@
+{
+  "location": "https://jiopay.com/business/help-center",
+  "faq_pairs": {
+    "JioPay Business App": [
+      {
+        "question": "What is JioPay Business?",
+        "answer": "JioPay Business is a payment aggregator and gateway provided by Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited), a subsidiary of Reliance Industries Limited. It offers merchants and businesses of all sizes simple and self-service products to accept and process payments online and offline from their customers. JioPay Business supports payments through web, mobile, and Point of Sale (POS) systems, making it convenient for merchants to manage transactions. With JioPay Business, businesses can streamline their payment operations and provide a seamless payment experience to their customers."
+      },
+      {
+        "question": "What is the purpose of the JioPay Business App?",
+        "answer": "JioPay Business App is designed for retailers, businessmen or any other service providers to keep track of payments even when on the move. With the JioPay Business app, you can perform payment processing activities like accepting payments, viewing past transactions, issuing refunds, editing your profile and much more."
+      },
+      {
+        "question": "How can I download the JioPay Business App?",
+        "answer": "To download the JioPay Business App, follow these steps:\n1. Open the Google Play Store app on your phone.\n2. Search for 'JioPay Business' and select it.\n3. Tap 'Install' to download and install the app.\n\nAlternatively, you can download the JioPay Business App directly from https://play.google.com/store/apps/details?id=com.jiopay.business\n\nNote: The JioPay Business App is available for Android devices on the Google Play Store."
+      },
+      {
+        "question": "I have forgotten my account password. How can I reset it?",
+        "answer": "At the time of login to the JioPay Business App/Dashboard, select the 'Forgot password' option and follow the instructions indicated to reset the password."
+      },
+      {
+        "question": "I am unable to login to the App/Dashboard. What can I do?",
+        "answer": "If you are unable to log in to the JioPay Business App or Dashboard, you can try the following: \n1. Check your internet connection: Ensure you have a stable internet connection by switching between Wi-Fi and mobile data. \n2. Reinstall the app: Uninstall the JioPay Business App and reinstall it to ensure you have the latest version.\n3. Verify your username and password: Double-check that you are entering the correct credentials. Use the 'Forgot Password' option if you need to reset your password.\nIf the login issues persist, kindly contact merchant support at \nmerchant.support@jiopay.in\nfor further assistance."
+      },
+      {
+        "question": "Why My App is crashing on my Phone?",
+        "answer": "If the JioPay Business App is crashing on your phone, try the following steps:\n1. Check your internet connection: Ensure you have a stable internet connection by switching between Wi-Fi and mobile data.\n2. Delete and reinstall the app: Uninstall the JioPay Business App and reinstall it to get the latest version.\n3. Check phone software updates: Make sure your phone's software is up to date by checking for available updates.\nIf the app still crashes, contact \nmerchant.support@jiopay.in\nfor assistance."
+      },
+      {
+        "question": "Where can I see transaction details in the App/Portal?",
+        "answer": "Click on the icon in the top right corner of the App/Portal and select 'Transactions' from the option to see the transaction details."
+      }
+    ],
+    "JioPay Business Dashboard": [
+      {
+        "question": "What is JioPay Business Dashboard?",
+        "answer": "The JioPay Business Dashboard is a user interface designed for merchants to configure and operate their JioPay Business account. It provides a centralized platform for managing your business and payments. With real-time charts and analytics, the dashboard allows you to track your business performance. You can view detailed reports, monitor transaction history, and analyse payment trends. The JioPay Business Dashboard empowers merchants to make informed decisions and optimize their payment processes. It offers valuable insights and enables better control over operations. By utilizing this user-friendly interface, merchants can effectively manage their JioPay Business account and drive business growth."
+      },
+      {
+        "question": "How can I generate reports on JioPay business Dashboard?",
+        "answer": "All of your transaction/refund/settlement data can be exported as reports in Excel/Text format. You can also download daily/monthly/custom date range report from the Reports section of the Dashboard. Maximum historical date range is for 6 months."
+      }
+    ],
+    "Collect link": [
+      {
+        "question": "How can I create Collect link?",
+        "answer": "You can create a Collect link in two ways: via API or via the Dashboard.\n• API: If you have programming knowledge or developer access, you can use the JioPay Business API to generate a Collect link programmatically. We will provide you integration kit.\n• Dashboard: To create a Collect link via the JioPay Dashboard:\n    o  Log in to the JioPay Dashboard.\n    o  Go to the Payment Links section.\n    o  Click on Create Payment Link.\n    o  Fill in the amount and customer details.\n    o  The payment link will be shared via SMS and email."
+      },
+      {
+        "question": "What are the payment modes available via Collect link?",
+        "answer": "Payment modes available via a Collect link include Cards, Net banking, Wallets, and UPI. The availability of specific modes depends on the activated payment methods for the Merchant ID (MID)."
+      },
+      {
+        "question": "Can I use Single Collect link to accept payments from multiple customers?",
+        "answer": "No, you cannot use a single Collect link to accept payments from multiple customers. A Collect link is typically generated for a specific transaction and is intended to be used by a single customer to make a payment. If you need to accept payments from multiple customers, you will need to generate separate Collect links for each customer."
+      },
+      {
+        "question": "What is the validity of the Collect link?",
+        "answer": "The validity of a Collect link is 90 days by default. However, merchants can update the validity by unchecking the default expiry check box & select the validity of the Collect link. Maximum validity is 180 days and minimum can be any period as per their needs."
+      },
+      {
+        "question": "Can I create Bulk Collect links?",
+        "answer": "As of now, JioPay does not offer the feature of creating bulk Collect links. However, this is something that they are working on and it is likely to be available in the near future."
+      },
+      {
+        "question": "Is partial payment allowed?",
+        "answer": "No, partial payment is not allowed when using a Collect link. The customer can only make a payment for the specific amount mentioned in the generated Collect link. However, this is something that they are working on and it is likely to be available in the near future."
+      },
+      {
+        "question": "Can customer enter the amount?",
+        "answer": "No, the customer cannot enter the amount when using a Collect link. The customer can only make a payment for the specific amount mentioned in the generated Collect link."
+      }
+    ],
+    "User Management": [
+      {
+        "question": "Can I add sub user to JioPay Business?",
+        "answer": "Yes, you can add sub-users to your JioPay Business account by following these steps:\n• Go to the \"Settings\" tab in the merchant dashboard.\n• Click on \"User Management\" and provide the necessary details for the new user.\n• Grant appropriate permissions based on their requirements.\n• Click \"Add User\" to complete the process.\n• The new sub-user will receive an invitation to create a password by clicking on the \"Forgot Password\" option on the login page.\n\nBy adding sub-users, you can manage access to your JioPay Business account more effectively."
+      },
+      {
+        "question": "How can a new sub access merchant Dashboard?",
+        "answer": "New sub user need to create a password by clicking on forgot password. Once the password is created, new sub user can login using new password on JioPay login page."
+      },
+      {
+        "question": "Can I block sub user?",
+        "answer": "Yes, you can block/edit/delete your sub users by going into user management section inside settings tab.\nOnce a user is deleted, they cannot be added again with the same cellphone number, although you can block and unblock sub users."
+      }
+    ],
+    "Repeat": [
+      {
+        "question": "What is Repeat?",
+        "answer": "Repeat is a billing system that allows consumers to make recurring payments for the usage of services provided by you. It enables automated and regular billing for ongoing services or subscriptions, ensuring a seamless payment experience for your customers. With Repeat, you can streamline your billing process and securely collect payments on a recurring basis."
+      },
+      {
+        "question": "What are the payment methods supported for Repeat?",
+        "answer": "Cards and UPI\nThe payment methods supported for repeat payments are cards and UPI (Unified Payments Interface). These widely-used payment options provide convenience and flexibility for customers to make recurring payments for their subscriptions."
+      },
+      {
+        "question": "What is the maximum amount for debit without 2FA in subsequent payment?",
+        "answer": "As per the RBI (Reserve Bank of India) guidelines, you can debit a customer without the requirement of two-factor authentication (2FA) for subsequent payments up to a maximum amount of ₹15,000/-\n*Amount subjective to change based on RBI guidelines."
+      },
+      {
+        "question": "I want to give my customer a free trial, would that be possible?",
+        "answer": "You can offer your customers a free trial using two types of mandate registration:\n• Standalone: A nominal amount (e.g., ₹2) is deducted and refunded to the customer. After the free trial period, you can start debiting the customer.\n• Inline: The customer is charged and the subscription starts immediately.\nThese options allow you to provide free trials and manage subscription billing based on your preferences."
+      },
+      {
+        "question": "Can I create Repeat via dashboard?",
+        "answer": "No, currently Repeat is supported via on-demand API."
+      },
+      {
+        "question": "Will you be able to manage my subscriptions?",
+        "answer": "You will need to manage your subscription plans yourself using the available on-demand APIs provided by JioPay Business. These APIs offer the necessary functionality to create, manage, and handle subscriptions for your customers."
+      }
+    ],
+    "Campaign": [
+      {
+        "question": "How can I create campaign?",
+        "answer": "To create a campaign, follow these steps:\n• Log in to the JioPay dashboard.\n• Navigate to the Campaigns section in the menu on the left.\n• Click on \"Create Campaign\" and configure it according to your business requirements.\n• Once you have set up the campaign, click \"Publish Now\" to make it live.\n\nIf you have any questions or need assistance, you can reach out to \nmerchant.support@jiopay.in."
+      },
+      {
+        "question": "How can I edit campaign?",
+        "answer": "To edit a campaign in the JioPay dashboard, follow these steps:\n• Go to the Campaigns section in the JioPay dashboard.\n• Select the specific Campaign ID that you want to edit.\n• Make the required changes in the Offer configuration.\n• Save the changes.\n• The campaign will be updated and published with the modified settings."
+      },
+      {
+        "question": "How can I pause/stop campaign?",
+        "answer": "To pause or stop a campaign in the JioPay dashboard, follow these steps:\n• Go to the Campaigns section in the JioPay dashboard.\n• Select the specific Campaign ID that you want to pause or stop.\n• Choose the option to pause or stop the campaign based on your business requirement.\n• If you pause a campaign, it can be re-enabled later until its expiry.\n• If you stop a campaign, it cannot be re-enabled again.\n• The campaign will be updated and published with the changes.\n\nPausing or stopping a campaign allows you to temporarily suspend or permanently end the promotional activities associated with it."
+      }
+    ],
+    "Settlement": [
+      {
+        "question": "What are settlements?",
+        "answer": "Settlement is the process through which you receive funds in your bank account for the money collected from your customers for a particular product/service. Settlement frequency may vary based on your agreement with JioPay Business. It is generally processed on T+1* working days (T being the date of capture of payment)."
+      },
+      {
+        "question": "How to check settlements in my bank account?",
+        "answer": "A Unique Transaction Reference (UTR) number is given by the banking partner for each settlement. UTR can be viewed by clicking on the settlement ID in the section or downloading the settlement report. You can use the UTR number to track the settlement in your bank account."
+      },
+      {
+        "question": "What should I do if I'm not receiving my settlements?",
+        "answer": "The settlement cycle is usually T+1* working days (T being the date of capture of payment). In case the settlement has not been credited to your bank account as per your settlement frequency, we recommend you follow the steps mentioned below:  \n\n• Login to the JioPay Business App or Dashboard and visit the My Profile section. \n• Check if the settlement information on your profile is the same as the one you are checking for the receipt of settlement funds from JioPay.\n• If the settlement information on the page is correct, then check your bank account for any credit transaction from 'JioPay' or 'JPSL' or 'Reliance Payment Solutions'. Please don't worry your money is safe with us. If you don't receive your money within two days, kindly contact JioPay Business Merchant support. If the settlement account is different, please send a request to \nmerchant.support@jiopay.in\nfor updating the settlement account with the attached cancelled cheque as a proof."
+      },
+      {
+        "question": "I believe that I have received partial or incorrect settlement in my account?",
+        "answer": "If you believe that you have received a partial or incorrect settlement in your account, please follow these steps to investigate the issue:\n• Login to the JioPay Business App or Dashboard.\n• Visit the ‘Transactions’ section on the App, or the ‘Report Section’ on the web Dashboard.\n• Filter the date of payments for which you have received the incorrect settlement.\n• Add the amount for all transactions which are tagged as ‘Success’.\n• Check if the same amount post deducting the transaction processing fees and taxes has been deposited in your linked Bank Account.   \n• If you have not received the same amount, contact us at \nmerchant.support@jiopay.in."
+      },
+      {
+        "question": "How do I Update settlement bank account number?",
+        "answer": "To update your settlement bank account number, email merchant.support@jiopay.in with your registered mobile number and the details of your new bank account. Attach a cancelled cheque as proof. The support team will assist you further."
+      },
+      {
+        "question": "Do I have to do manual settlement for my account every day to get the funds for payments collected by me?",
+        "answer": "No, as a JioPay Business merchant, you do not need to manually initiate settlement or batch closure for your account. The process of settling funds for the payments collected by you is automated. The unsettled transactions are automatically settled in your bank account based on your settlement cycle, without the need for any manual intervention from your side."
+      },
+      {
+        "question": "Why is my settlement on hold for some transactions?",
+        "answer": "We understand that you would be concerned about the hold on your settlement. We would like to assure you that holds on settlements are a standard practice in the payment processing industry and are put in place to ensure the security and integrity of your transactions."
+      }
+    ],
+    "Refunds": [
+      {
+        "question": "How can I issue refunds to my customers for any payments made by them?",
+        "answer": "To issue refunds using the JioPay Business App or Dashboard, follow these steps:\n• Login to the app or dashboard.\n• Locate the transaction for refund.\n• Select the transaction and choose \"Refund\".\n• Enter the refund amount (full or partial).\n• Confirm the refund request.\n\nRefunds can be issued up to the value of the original transaction and within 180 days from the transaction date, subject to availability of sufficient settlement amount."
+      },
+      {
+        "question": "How to check the status of refund?",
+        "answer": "You can check the status of the refund under refund tab on dashboard. Refund is successful processed if the refund status is Accepted or Success."
+      },
+      {
+        "question": "How to check ARN for refund?",
+        "answer": "There are two ways to check this \n1. You can check the ARN inside refund history tab on dashboard.\n2. You can search for the transaction for which refund has been processed. Click on the transaction and you can find refund details at the bottom."
+      },
+      {
+        "question": "What should I do if refund is not credited in my customer’s account?",
+        "answer": "If a refund is not credited to your customer's account, please keep the following in mind:\n1. Refund Deduction: The refund amount will be deducted from any pending settlements in your account. If there are no pending settlements, the refund will be on hold.\n2. Settlement Availability: The refund will be processed when a new payment is received from another customer for an amount equal to or greater than the refund amount.\nFor example, if you try to refund Rs. 100 to customer X but have no pending settlements and no new payments, the refund will be on hold. Once a new payment is received, the refund will be processed and credited to the customer's account.\nPlease ensure that you have pending settlements or new payments to cover the refund amount. For further assistance, contact \nmerchant.support@jiopay.in."
+      },
+      {
+        "question": "Can I cancel a refund?",
+        "answer": "Once a refund has been processed successfully, it cannot be cancelled. The refunded amount has already been transferred to the customer's account, and the transaction is considered final. It's important to double-check the refund details before initiating the process to ensure accuracy. If you have any concerns or need further assistance, please contact \nmerchant.support@jiopay.in."
+      },
+      {
+        "question": "Do you charge for refund?",
+        "answer": "We do not charge for refunds. However please note that the processing charges levied by JPSL for the original payment will not be reversed."
+      },
+      {
+        "question": "Can we do bulk refund?",
+        "answer": "Yes, you have the option to perform bulk refunds using the JioPay dashboard. You can upload a refund file in the format specified on the dashboard. Once the file is uploaded, the system will process the refunds and provide you with the number of successful and failed refund records."
+      },
+      {
+        "question": "What are the steps for Bulk refund?",
+        "answer": "To process bulk refund please follow below steps:\n• Go to refund section and click on initiate bulk refund & download the sample file.\n• Mention your Merchant ID in the entity column.\n• Enter Method type as 211.\n• Enter transaction ID under original transaction ID.\n• Enter transaction amount under original transaction amount.\n• Enter refund amount that has to be processed under amount section.\n• Save the file with the given naming convention  jfs_yyyymmddhhmmss_mid_recordscount\no  jfs is static field.\no  yyyymmddhhmmss is year, month, day, hours, min & seconds.\no  mid is your merchant ID.\no  record count is the refund count.\no  Please ensure you follow above steps for successful refund processing."
+      },
+      {
+        "question": "Do we have a format for bulk refund report?",
+        "answer": "Yes, there is particular format for Bulk refund report which you can download from merchant Dashboard. You can go to refund section and click on initiate bulk refund & download the sample file. Any deviation from the standard format will lead to failure of bulk refund."
+      },
+      {
+        "question": "Is partial refund allowed in bulk refund?",
+        "answer": "Yes, Partial refund is allowed. You can add partial refund amount in the amount section of refund file."
+      },
+      {
+        "question": "Can we reprocess failed record in bulk refund?",
+        "answer": "Yes, if any records in the bulk refund file fail to process successfully, you can reprocess those failed records by uploading a new file with the corrected information. Simply create a new file with the failed refund records, ensuring that it follows the required format, and upload it again through the JioPay dashboard. The system will process the new file separately, allowing you to retry the refund for the failed records. Make sure to address any errors or issues that caused the initial failure to increase the chances of successful processing in the reupload."
+      }
+    ]
+  }
+}
